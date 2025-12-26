@@ -1,0 +1,20 @@
+.contact-info {
+  &__label {
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+  }
+  &__value {
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    color: $main-text-color;
+    letter-spacing: 0;
+  }
+  &__link {
+    text-decoration: none;
+  }
+}

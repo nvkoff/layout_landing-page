@@ -1,0 +1,21 @@
+.btn {
+  padding: 14px 16px;
+  border: 1px solid $main-text-color;
+  border-radius: 40px;
+
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  color: $menu-text-color;
+  text-align: center;
+  letter-spacing: 0;
+
+  background-color: $main-text-color;
+
+  @include hover(box-shadow, 1px 4px 16px 0 #e8e8f066);
+
+  &:active {
+    box-shadow: 1px 4px 16px 0 #e8e8f0a3;
+  }
+}

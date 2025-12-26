@@ -1,0 +1,22 @@
+@import 'variables';
+@import './utils/mixins';
+
+@import './blocks/btn';
+@import './blocks/header';
+@import './blocks/menu';
+@import './blocks/icon';
+@import './blocks/nav';
+@import './blocks/top-bar';
+@import './blocks/page';
+@import './blocks/footer';
+
+@import './blocks/section-title';
+@import './blocks/main';
+@import './blocks/product';
+@import './blocks/detail';
+@import './blocks/contact-info';
+
+@import './sections/move-free';
+@import './sections/compare-bikes';
+@import './sections/details';
+@import './sections/contact';
