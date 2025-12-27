@@ -16,5 +16,7 @@
   }
   &__link {
     text-decoration: none;
+
+    @include hover(color, blue)
   }
 }

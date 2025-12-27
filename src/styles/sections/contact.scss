@@ -38,6 +38,7 @@
     padding: 14px 16px;
     border: 1px solid $main-text-color;
     border-radius: 16px;
+    resize: none;
 
     font-family: Poppins, Arial, sans-serif;
     font-size: 14px;
@@ -67,6 +68,10 @@
       box-shadow: 0 0 0 1000px $menu-text-color inset !important;
       -webkit-text-fill-color: $main-text-color !important;
       transition: menu-text-color 9999s ease-in-out 0s;
+
+      &:hover::placeholder {
+        color: $menu-text-color;
+      }
     }
   }
 }
